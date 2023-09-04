@@ -276,9 +276,9 @@ color: #0e0d0de7;
    text-align: left;
    color: rgb(252, 245, 245);
 }
-@media only screen and(max-width:1254px){
+@media only screen and (max-width:1254px){
    .fourthWrapper2{
-      left: 600px;
+      left: 500px;
    }
    
    .fourthWrapper2 h3{
@@ -286,10 +286,47 @@ color: #0e0d0de7;
       
    }
    .fourthWrapper2 p{
-      font-size: 40px;
+      font-size: 10px;
    
    }
 }
+@media only screen and (max-width:1160px){
+   .lastWrapper{
+      left:760px;
+   }
+   .lastWrapper h5{
+      font-size: 15px;
+   }
+   .lastWrapper h4{
+      font-size: 13px;
+   }
+
+}
+
+@media only screen and (max-width:1160px){
+   .lastWrapper{
+      left:630px;
+   }
+  
+}
+@media only screen and (max-width:982px){
+   .fourthWrapper2{
+      left: 400px;
+   }
+   
+   
+}
+@media only screen and (max-width:846px){
+   .lastWrapper{
+      left: 570px;
+   }
+   
+   
+}
+
+
+
+
 @media only screen and (max-width:768px)
 {
    .imgOne1{
@@ -326,6 +363,27 @@ color: #0e0d0de7;
    }
    .whiteWrapperp{
       padding-top: 10px;
+   }
+   .lastWrapper{
+      top:0px;
+      position: relative;
+      background-color: rgb(243, 238, 238);
+     text-align: center;
+      left: 0px;
+      height: 200px;
+      padding-top:30px ;
+   
+   }
+   .imgThree2{
+      border-radius: 0px;
+   }
+   .lastWrapper h5 a{
+      color: black;
+
+   }
+   .lastWrapper h4 a{
+      color: black;
+
    }
 
 
